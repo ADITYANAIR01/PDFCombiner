@@ -17,12 +17,21 @@ This tool allows you to combine multiple PDF files into a single PDF using a sim
 ## Installation
 
 ### Step 1: Install Required Packages
-```html
-<textarea readonly style="width: 100%; height: 30px;">pip install PyPDF2 fpdf</textarea>
 
-<textarea readonly style="width: 100%; height: 30px;">git clone https://github.com/ADITYANAIR01/PDFCombiner.git</textarea>
+```bash
+pip install PyPDF2 fpdf
 
-<textarea readonly style="width: 100%; height: 30px;">cd PDFCombiner</textarea>
+### Step 2: Clone the Repository
 
-<textarea readonly style="width: 100%; height: 30px;">python pdf_combiner.py</textarea>
+```bash 
+git clone https://github.com/ADITYANAIR01/PDFCombiner.git
 
+### Step 3: Navigate to the Project Directory
+
+```bash 
+cd PDFCombiner
+
+### Step 4: Run the Application
+
+```bash 
+python pdf_combiner.py
