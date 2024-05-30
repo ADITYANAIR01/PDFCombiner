@@ -13,3 +13,6 @@ This tool allows you to combine multiple PDF files into a single PDF using a sim
 - Python 3
 - PyPDF2
 - fpdf
+
+## INSTALLATION 
+pip install PyPDF2 fpdf
