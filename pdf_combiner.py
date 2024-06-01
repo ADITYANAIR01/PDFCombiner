@@ -1,10 +1,8 @@
-import os               # MAIN XCODE BASIC FUNCTION
+import os               # draft 2 IMPROVED GUI
 import subprocess
 import sys
 from tkinter import Tk, filedialog, Button, Listbox, EXTENDED, messagebox, Label
 import time
-
-from PyPDF2 import PdfWriter, PdfReader
 
 # Function to install packages
 def install_package(package):
@@ -17,6 +15,8 @@ for package in required_packages:
         __import__(package)
     except ImportError:
         install_package(package)
+
+from PyPDF2 import PdfWriter, PdfReader
 
 # Function to combine PDFs
 def combine_pdfs(file_paths, output_path):
@@ -105,3 +105,4 @@ while True:
     blink()
 
 root.mainloop()
+ 
