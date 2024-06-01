@@ -1,6 +1,16 @@
-# PDF Combiner Tool
+# PDF Combiner Tool Improvements
+
+Updated Description:
+
+Version 2.0 - Improved GUI and Code Structure
 
 This tool allows you to combine multiple PDF files into a single PDF using a simple GUI built with Python with Tkinter.
+
+This update introduces an improved structure for the PDF Combining Tool. The primary changes include:
+
+- Reorganized Imports and Package Installation: Ensured that the required packages are installed before importing them.
+
+- Code Clarity: Enhanced code readability by separating the package installation logic from the main functional imports.
 
 ## Features
 
