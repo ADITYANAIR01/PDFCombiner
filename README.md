@@ -1,21 +1,17 @@
 # PDF Combiner Tool Improvements
 
 Updated Description:
+ 
+ # Version 3.0
 
-Version 2.0 - Improved GUI and Code Structure
+- Class-based Structure: The code is now encapsulated in a PDFCombinerApp class, which improves organization and reusability.
+Scrollbar: Added a scrollbar to the listbox for better file management.
 
-This tool allows you to combine multiple PDF files into a single PDF using a simple GUI built with Python with Tkinter.
+- Progress Bar: Introduced a progress bar to provide visual feedback during the PDF combining process.
 
-This update introduces an improved structure for the PDF Combining Tool. The primary changes include:
+- Blinking Effect: Improved the blinking effect using after method instead of an infinite loop.
 
-- Reorganized Imports and Package Installation: Ensured that the required packages are installed before importing them.
-
-- Code Clarity: Enhanced code readability by separating the package installation logic from the main functional imports.
-
-## Features
-
-- Select multiple PDF files.
-- Combine PDFs into one file.
+- Threading: Utilized threading to prevent the GUI from freezing during the PDF combining process.
 
 ## Requirements
 
