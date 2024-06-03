@@ -1,17 +1,26 @@
-# PDF Combiner Tool Improvements
+PDF Combining Tool by Aditya with ❤️
 
-Updated Description:
- 
- # Version 3.0
+Version 3.0 - Improved GUI and Code Structure
 
-- Class-based Structure: The code is now encapsulated in a PDFCombinerApp class, which improves organization and reusability.
-Scrollbar: Added a scrollbar to the listbox for better file management.
+This tool allows you to combine multiple PDF files into a single PDF using a simple GUI built with Python and Tkinter.
 
-- Progress Bar: Introduced a progress bar to provide visual feedback during the PDF combining process.
+This update introduces an improved structure for the PDF Combining Tool. The primary changes include:
 
-- Blinking Effect: Improved the blinking effect using after method instead of an infinite loop.
+- Reorganized Imports and Package Installation: Ensured that the required packages are installed before importing them.
 
-- Threading: Utilized threading to prevent the GUI from freezing during the PDF combining process.
+- Code Clarity: Enhanced code readability by separating the package installation logic from the main functional imports.
+
+- Improved Function and GUI: Enhanced the overall user interface and function implementation for better user experience.
+
+- Error Handling and Memory Efficiency: Improved error handling mechanisms and optimized memory usage during the PDF combination process.
+
+## Features
+
+- Select multiple PDF files.
+
+- Combine PDFs into one file.
+
+To run this tool, you need to have Python installed on your system. The required packages will be installed automatically when you run the script.
 
 ## Requirements
 
@@ -20,6 +29,8 @@ Scrollbar: Added a scrollbar to the listbox for better file management.
 - fpdf
 
 ## Installation
+
+To run this tool, you need to have Python installed on your system. The required packages will be installed automatically when you run the script. OR
 
 pip install PyPDF2 fpdf
 
