@@ -1,4 +1,4 @@
-import os               # draft 3   IMPROVE FUNCTION AND GUI
+import os           # LAST DRAFT BETTER ERROR HANDELING AND MEMORY EFFICENCY 
 import subprocess
 import sys
 from tkinter import Tk, filedialog, Button, Listbox, EXTENDED, messagebox, Label, Scrollbar, RIGHT, Y, BOTH
